@@ -1,0 +1,64 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   max-width: 100vw;
+   height: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background: rgb(34,193,195);
+      background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(104,145,205,1) 19%, rgba(224,57,235,1) 71%, rgba(253,45,227,1) 100%);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .btn-menu{
+        color: white;
+   }
+   .btn-icon{
+       a{
+           text-decoration: none;
+           color: white
+       }
+   }
+}
+
+main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    aside{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+        padding-left: 20px;
+        padding-right: 80px;
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px 0;
+        }
+    }
+    .dashboard__widget{
+        padding: 10px 40px;
+        display: flex;
+        flex-direction: row;
+        .dashboard__widget-contribution{
+            padding: 10px 0;
+            width: 290px;
+            background: #EB6EAD;
+        }
+        .dashboard__widget-student{
+            padding: 10px 0;
+            width: 290px;
+            background: #9998C9;
+        }
+        .dashboard__widget-total{
+            padding: 10px 0;
+            width: 290px;
+            background: #49C2E5;
+        }
+    }
+}
+
