@@ -1,8 +1,3 @@
-h1{
-    margin: 0;
-    padding: 0;
-}
-
 header {
    max-width: 100vw;
    height: 50px;
@@ -26,6 +21,7 @@ header {
 
 main {
     max-width: 100%;
+    
     display: flex;
     flex-direction: row;
     aside{
@@ -41,13 +37,18 @@ main {
         }
     }
     .dashboard__widget{
-        padding: 10px 40px;
+        padding: 10px 10px;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        // div{
+        //     padding: 20px 0;
+        //     margin: 10px 10px;
+        // }
         .dashboard__widget-contribution{
+            background: #EB6EAD;
             padding: 10px 0;
             width: 290px;
-            background: #EB6EAD;
         }
         .dashboard__widget-student{
             padding: 10px 0;
@@ -56,7 +57,7 @@ main {
         }
         .dashboard__widget-total{
             padding: 10px 0;
-            width: 290px;
+            width: 100%;
             background: #49C2E5;
         }
     }
